@@ -4,7 +4,7 @@
 This project explores Walmart sales data using SQL queries to gain insights into top-performing branches, products, sales trends, and customer behavior. The data was obtained from the Kaggle Walmart Sales Forecasting Competition. It aims to identify areas for improvement and optimization of sales strategies.
 ## About Data
 
-The dataset was obtained from the [Kaggle Walmart Sales Forecasting Competition](https://www.kaggle.com/c/walmart-recruiting-store-sales-forecasting). This dataset contains sales transactions from a three different branches of Walmart, respectively located in Mandalay, Yangon and Naypyitaw. The data contains 17 columns and 1000 rows:
+The dataset was obtained from the [Kaggle Walmart Sales Forecasting Competition](https://www.kaggle.com/c/walmart-recruiting-store-sales-forecasting). This dataset contains sales transactions from three different branches of Walmart, respectively located in Mandalay, Yangon, and Naypyitaw. The data contains 17 columns and 1000 rows:
 
 | Column                  | Description                             | Data Type      |
 | :---------------------- | :-------------------------------------- | :------------- |
@@ -13,7 +13,7 @@ The dataset was obtained from the [Kaggle Walmart Sales Forecasting Competition]
 | city                    | The location of the branch              | VARCHAR(30)    |
 | customer_type           | The type of the customer                | VARCHAR(30)    |
 | gender                  | Gender of the customer making purchase  | VARCHAR(10)    |
-| product_line            | Product line of the product solf        | VARCHAR(100)   |
+| product_line            | Product line of the product sold        | VARCHAR(100)   |
 | unit_price              | The price of each product               | DECIMAL(10, 2) |
 | quantity                | The amount of the product sold          | INT            |
 | VAT                 | The amount of tax on the purchase       | FLOAT(6, 4)    |
@@ -34,7 +34,7 @@ The dataset was obtained from the [Kaggle Walmart Sales Forecasting Competition]
 | - How many unique product lines exist?                       | - What is the most common payment method?                    | - What is the best-selling product line?                               |
 | - What is the total revenue by month?                        | - Which product line has the highest revenue?                | - Which city has the highest revenue?                                  |
 | - Which branch sold more products than the average?          | - What is the most common product line by gender?            | - What is the average rating for each product line?                    |
-| - Number of sales made in each time of day per weekday.      | - Which customer type generates the most revenue?            | - Which city has the highest VAT percentage?                           |
+| - Number of sales made at each time of day per weekday.      | - Which customer type generates the most revenue?            | - Which city has the highest VAT percentage?                           |
 | - How many unique payment methods exist?                    | - What is the most common customer type?                     | - Gender distribution of customers.                                    |
 | - Weekday with the best average customer ratings.            | - Weekday with the best average customer ratings per branch. | - Time of day with the most customer ratings.                          |
 |                                                              | - Time of day with the most customer ratings per branch.     | - Gender distribution of customers per branch.                         |

@@ -51,7 +51,7 @@ This project leverages SQL queries to analyze the Walmart sales data stored in a
 - The Walmart sales dataset is imported into a relational database management system MySQL.
 - The data is organized into appropriate tables with relevant columns.
 - The data is inspected for missing or null values.
-- 
+  
 ### Feature Engineering:
 New features are generated from existing columns to enhance analysis:
 

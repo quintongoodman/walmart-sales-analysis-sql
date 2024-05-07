@@ -28,7 +28,7 @@ The dataset was obtained from the [Kaggle Walmart Sales Forecasting Competition]
 
 ## Key Questions Addressed:
 
-| Left Column                                                  | Middle Column                                                  | Right Column                                                         |
+| Q1_Column                                                  | Q2_Column                                                  |Q3_Column                                                            |
 |--------------------------------------------------------------|----------------------------------------------------------------|-----------------------------------------------------------------------|
 | - How many unique cities does the data have?                 | - In which city is each branch located?                       | - Which month has the highest COGS (Cost of Goods Sold)?               |
 | - How many unique product lines exist?                       | - What is the most common payment method?                    | - What is the best-selling product line?                               |
